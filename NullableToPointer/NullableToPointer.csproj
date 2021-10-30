@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <PropertyGroup>
+    <Version>1.0.0</Version>
+    
     <Title>NullableToPointer</Title>
     <Description>
       Utility extension to convert nullable to pointer.
@@ -15,9 +17,16 @@
     <Authors>YvvkiRika</Authors>
     <Copyright>Copyright (c) 2021 Yuuki "Yvvki" Rika</Copyright>
 
-    <PackageLicenseExpression>DBAD-1.2</PackageLicenseExpression>
+    <PackageTags>nullable pointer</PackageTags>
 
-    <PackageProjectUrl>https://github.com/YvvkiRika/NullableToPointer</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/YvvkiRika/NullableToPointer</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.md" Pack="true" PackagePath="" />
+  </ItemGroup>
 
 </Project>
