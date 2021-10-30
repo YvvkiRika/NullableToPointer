@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RootNamespace>System</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Title>NullableToPointer</Title>
+    <Description>
+      Utility extension to convert nullable to pointer.
+    </Description>
+
+    <Authors>YvvkiRika</Authors>
+    <Copyright>Copyright (c) 2021 Yuuki "Yvvki" Rika</Copyright>
+
+    <PackageLicenseExpression>DBAD-1.2</PackageLicenseExpression>
+
+    <PackageProjectUrl>https://github.com/YvvkiRika/NullableToPointer</PackageProjectUrl>
+  </PropertyGroup>
+
+</Project>
